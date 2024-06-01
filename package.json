@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js",
-    "build": "echo 'No build step required'"
-  },
+  "start": "nodemon index.js",
+  "dev": "nodemon index.js",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "mkdir -p public && echo \"Build completed.\""
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
